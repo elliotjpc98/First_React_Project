@@ -1,4 +1,7 @@
+import './CoreConcepts.css';
+//Seperation Of Concerns -> 
 export default function CoreConcept({ image, title, description }) {
+  //Props
   return (
     <li>
       <img src={image} alt={image} />
@@ -7,3 +10,4 @@ export default function CoreConcept({ image, title, description }) {
     </li>
   );
 }
+
